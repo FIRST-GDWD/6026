@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.narrow {
+    background-color: lightsalmon;
+    display: inline-block;
+    width: 200px;
+}
