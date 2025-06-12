@@ -10,11 +10,12 @@
 .post-it {
     background-color: rgb(242, 242, 138);
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 24px;
     padding: 24px;
     font-family: cursive;
+    box-shadow: 2px 2px 2px #00000033;
 }
 
 .big {
@@ -23,12 +24,16 @@
 
 .pink {
     background-color: pink;
-    text-align: center;
 }
 
 .green {
     background-color: rgb(111, 232, 111);
     
+}
+
+h2 {
+    text-align: center;
+    border: 2px solid red;
 }
 
 h5 {
@@ -43,4 +48,17 @@ img {
     width: 150px;
     height: 100px;
     object-fit: cover;
+}
+
+.push-pin {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #00000033;
+}
+
+.centered {
+    text-align: center;
 }
