@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(white, #FFFFFF00) 27;
+        /* linear-gradient(to top, white, #FFFFFF00) 27; */
+    border-radius: 36px;
+    width: 500px;
+    height: 400px;
+}
