@@ -36,7 +36,9 @@ body {
 }
 
 #hero-2 {
-    background-image: url("../images/lonely-ocean.jpg");
+    background-image: 
+        linear-gradient(#FF000033, #FF000099),
+        url("../images/lonely-ocean.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
